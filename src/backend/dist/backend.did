@@ -1,0 +1,31 @@
+type ConsentRecord = 
+ record {
+   camera: bool;
+   dataUsage: bool;
+   location: bool;
+   timestamp: int;
+ };
+type AnalysisRecord = 
+ record {
+   ageGroup: text;
+   analysisId: text;
+   causes: vec text;
+   confidence: float64;
+   doctorAdvice: text;
+   duration: text;
+   explanation: text;
+   imageUrl: text;
+   lifestyleTips: vec text;
+   predictedDisease: text;
+   symptoms: vec text;
+   timestamp: int;
+   treatments: vec text;
+   userPrincipal: principal;
+ };
+service : {
+  getAnalyses: () -> (vec AnalysisRecord) query;
+  getAnalysis: (analysisId: text) -> (opt AnalysisRecord) query;
+  getConsent: () -> (opt ConsentRecord) query;
+  saveAnalysis: (analysis: AnalysisRecord) -> (text);
+  saveConsent: (camera: bool, location: bool, dataUsage: bool) -> ();
+}

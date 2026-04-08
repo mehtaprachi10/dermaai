@@ -1,0 +1,443 @@
+import { c as createLucideIcon, j as jsxRuntimeExports, b as cn } from "./index-BFQ1Vwrd.js";
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$4 = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+];
+const Clock = createLucideIcon("clock", __iconNode$4);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$3 = [
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+];
+const ExternalLink = createLucideIcon("external-link", __iconNode$3);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$2 = [
+  ["polygon", { points: "3 11 22 2 13 21 11 13 3 11", key: "1ltx0t" }]
+];
+const Navigation = createLucideIcon("navigation", __iconNode$2);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$1 = [
+  [
+    "path",
+    {
+      d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+      key: "9njp5v"
+    }
+  ]
+];
+const Phone = createLucideIcon("phone", __iconNode$1);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
+      key: "r04s7s"
+    }
+  ]
+];
+const Star = createLucideIcon("star", __iconNode);
+function Skeleton({ className, ...props }) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "div",
+    {
+      "data-slot": "skeleton",
+      className: cn("bg-accent animate-pulse rounded-md", className),
+      ...props
+    }
+  );
+}
+const MOCK_DOCTORS = [
+  {
+    id: "d1",
+    name: "Dr. Sarah Mitchell",
+    specialty: "Dermatology & Skin Cancer",
+    address: "142 Harley Street",
+    city: "London, W1G 7LE",
+    phone: "+44 20 7123 4567",
+    rating: 4.9,
+    lat: 51.5194,
+    lon: -0.1484
+  },
+  {
+    id: "d2",
+    name: "Dr. James Okonkwo",
+    specialty: "Clinical Dermatology",
+    address: "88 Queen Victoria Street",
+    city: "London, EC4V 4EH",
+    phone: "+44 20 7234 5678",
+    rating: 4.8,
+    lat: 51.5117,
+    lon: -0.0979
+  },
+  {
+    id: "d3",
+    name: "Dr. Priya Sharma",
+    specialty: "Cosmetic & Medical Dermatology",
+    address: "55 New Bond Street",
+    city: "London, W1S 2RP",
+    phone: "+44 20 7345 6789",
+    rating: 4.7,
+    lat: 51.5131,
+    lon: -0.1462
+  },
+  {
+    id: "d4",
+    name: "Dr. Marcus Chen",
+    specialty: "Pediatric & Adult Dermatology",
+    address: "10 Great Portland Street",
+    city: "London, W1W 8QG",
+    phone: "+44 20 7456 7890",
+    rating: 4.9,
+    lat: 51.5179,
+    lon: -0.1432
+  },
+  {
+    id: "d5",
+    name: "Dr. Elena Vasquez",
+    specialty: "Dermatopathology",
+    address: "31 Wimpole Street",
+    city: "London, W1G 8JU",
+    phone: "+44 20 7567 8901",
+    rating: 4.6,
+    lat: 51.517,
+    lon: -0.1478
+  },
+  {
+    id: "d6",
+    name: "Dr. Robert Anand",
+    specialty: "General Dermatology",
+    address: "27 Cavendish Square",
+    city: "London, W1G 0JB",
+    phone: "+44 20 7678 9012",
+    rating: 4.5,
+    lat: 51.5164,
+    lon: -0.1473
+  },
+  {
+    id: "d7",
+    name: "Dr. Aisha Ibrahim",
+    specialty: "Eczema & Psoriasis Specialist",
+    address: "49 Portland Place",
+    city: "London, W1B 3JB",
+    phone: "+44 20 7789 0123",
+    rating: 4.8,
+    lat: 51.5186,
+    lon: -0.1449
+  },
+  {
+    id: "d8",
+    name: "Dr. Thomas Bergmann",
+    specialty: "Acne & Acne Scarring",
+    address: "15 Park Crescent",
+    city: "London, W1B 1PH",
+    phone: "+44 20 7890 1234",
+    rating: 4.7,
+    lat: 51.521,
+    lon: -0.1441
+  },
+  {
+    id: "d9",
+    name: "Dr. Fatima Al-Rashid",
+    specialty: "Allergy & Skin Immunology",
+    address: "62 Devonshire Place",
+    city: "London, W1G 6JD",
+    phone: "+44 20 7901 2345",
+    rating: 4.9,
+    lat: 51.5202,
+    lon: -0.1481
+  },
+  {
+    id: "d10",
+    name: "Dr. Lucas Ferreira",
+    specialty: "Pigmentation & Vitiligo",
+    address: "8 Upper Wimpole Street",
+    city: "London, W1G 6LH",
+    phone: "+44 20 7012 3456",
+    rating: 4.6,
+    lat: 51.5173,
+    lon: -0.1475
+  },
+  {
+    id: "d11",
+    name: "Dr. Natasha Patel",
+    specialty: "Fungal & Infectious Dermatology",
+    address: "200 Great Dover Street",
+    city: "London, SE1 4YB",
+    phone: "+44 20 7123 5678",
+    rating: 4.8,
+    lat: 51.4993,
+    lon: -0.0925
+  },
+  {
+    id: "d12",
+    name: "Dr. Henry Watkins",
+    specialty: "Skin Surgery & Mohs",
+    address: "77 Bishopsgate",
+    city: "London, EC2N 3AQ",
+    phone: "+44 20 7234 6789",
+    rating: 4.7,
+    lat: 51.5167,
+    lon: -0.0826
+  },
+  {
+    id: "d13",
+    name: "Dr. Mei-Ling Zhou",
+    specialty: "Laser Dermatology",
+    address: "45 Marylebone Lane",
+    city: "London, W1U 2NP",
+    phone: "+44 20 7345 7890",
+    rating: 4.9,
+    lat: 51.5156,
+    lon: -0.1504
+  },
+  {
+    id: "d14",
+    name: "Dr. Kwame Asante",
+    specialty: "Skin of Color Specialist",
+    address: "120 Tottenham Court Road",
+    city: "London, W1T 5AH",
+    phone: "+44 20 7456 8901",
+    rating: 4.8,
+    lat: 51.5234,
+    lon: -0.135
+  },
+  {
+    id: "d15",
+    name: "Dr. Isabelle Moreau",
+    specialty: "Rosacea & Vascular Dermatology",
+    address: "30 Weymouth Street",
+    city: "London, W1G 7BS",
+    phone: "+44 20 7567 9012",
+    rating: 4.6,
+    lat: 51.5196,
+    lon: -0.1477
+  },
+  {
+    id: "d16",
+    name: "Dr. David Nguyen",
+    specialty: "Paediatric Dermatology",
+    address: "18 Queen Anne Street",
+    city: "London, W1G 8HU",
+    phone: "+44 20 7678 0123",
+    rating: 4.7,
+    lat: 51.5162,
+    lon: -0.148
+  },
+  {
+    id: "d17",
+    name: "Dr. Sonia Kapoor",
+    specialty: "Aesthetic & Anti-Ageing",
+    address: "99 Regent Street",
+    city: "London, W1B 4EZ",
+    phone: "+44 20 7789 1234",
+    rating: 4.5,
+    lat: 51.5112,
+    lon: -0.1403
+  },
+  {
+    id: "d18",
+    name: "Dr. Oliver Henriksen",
+    specialty: "Hair & Scalp Disorders",
+    address: "6 Montagu Place",
+    city: "London, W1H 2ER",
+    phone: "+44 20 7890 2345",
+    rating: 4.8,
+    lat: 51.517,
+    lon: -0.1601
+  },
+  {
+    id: "d19",
+    name: "Dr. Amara Osei",
+    specialty: "Wound Healing & Keloids",
+    address: "75 Baker Street",
+    city: "London, W1U 6RF",
+    phone: "+44 20 7901 3456",
+    rating: 4.7,
+    lat: 51.5222,
+    lon: -0.157
+  },
+  {
+    id: "d20",
+    name: "Dr. Christina Walsh",
+    specialty: "Nail & Foot Dermatology",
+    address: "52 Gloucester Place",
+    city: "London, W1U 8JQ",
+    phone: "+44 20 7012 4567",
+    rating: 4.6,
+    lat: 51.5208,
+    lon: -0.1573
+  },
+  {
+    id: "d21",
+    name: "Dr. Rajesh Nair",
+    specialty: "Phototherapy & Vitiligo",
+    address: "14 York Street",
+    city: "London, W1H 1PZ",
+    phone: "+44 20 7123 6789",
+    rating: 4.9,
+    lat: 51.5177,
+    lon: -0.1592
+  },
+  {
+    id: "d22",
+    name: "Dr. Gabrielle Fontaine",
+    specialty: "Melasma & Hyperpigmentation",
+    address: "40 Seymour Street",
+    city: "London, W1H 5WL",
+    phone: "+44 20 7234 7890",
+    rating: 4.7,
+    lat: 51.5152,
+    lon: -0.1624
+  },
+  {
+    id: "d23",
+    name: "Dr. Ben Holloway",
+    specialty: "Mole Screening & Melanoma",
+    address: "22 Bryanston Square",
+    city: "London, W1H 2DL",
+    phone: "+44 20 7345 8901",
+    rating: 4.8,
+    lat: 51.5167,
+    lon: -0.161
+  },
+  {
+    id: "d24",
+    name: "Dr. Yuki Tanaka",
+    specialty: "Occupational Dermatology",
+    address: "68 Manchester Street",
+    city: "London, W1U 7AF",
+    phone: "+44 20 7456 9012",
+    rating: 4.6,
+    lat: 51.5193,
+    lon: -0.1579
+  },
+  {
+    id: "d25",
+    name: "Dr. Maria Santos",
+    specialty: "Seborrheic & Scalp Conditions",
+    address: "5 Crawford Street",
+    city: "London, W1H 1PJ",
+    phone: "+44 20 7567 0123",
+    rating: 4.7,
+    lat: 51.519,
+    lon: -0.1608
+  },
+  {
+    id: "d26",
+    name: "Dr. Simon Adekunle",
+    specialty: "Tropical & Infectious Skin Disease",
+    address: "33 Lisson Grove",
+    city: "London, NW1 6UB",
+    phone: "+44 20 7678 1234",
+    rating: 4.9,
+    lat: 51.5245,
+    lon: -0.1699
+  },
+  {
+    id: "d27",
+    name: "Dr. Leila Ahmadi",
+    specialty: "Urticaria & Angioedema",
+    address: "87 Abbey Road",
+    city: "London, NW6 4SH",
+    phone: "+44 20 7789 2345",
+    rating: 4.8,
+    lat: 51.5321,
+    lon: -0.1932
+  },
+  {
+    id: "d28",
+    name: "Dr. Patrick O'Brien",
+    specialty: "Hand & Contact Dermatology",
+    address: "11 Paddington Street",
+    city: "London, W1U 5QF",
+    phone: "+44 20 7890 3456",
+    rating: 4.7,
+    lat: 51.5185,
+    lon: -0.1537
+  },
+  {
+    id: "d29",
+    name: "Dr. Zara Williams",
+    specialty: "Autoimmune Skin Disorders",
+    address: "44 Dorset Street",
+    city: "London, W1U 7NF",
+    phone: "+44 20 7901 4567",
+    rating: 4.8,
+    lat: 51.518,
+    lon: -0.1549
+  },
+  {
+    id: "d30",
+    name: "Dr. Antoine Dubois",
+    specialty: "Biopsy & Histopathology",
+    address: "60 Chiltern Street",
+    city: "London, W1U 4HP",
+    phone: "+44 20 7012 5678",
+    rating: 4.6,
+    lat: 51.5199,
+    lon: -0.1568
+  }
+];
+function haversineDistanceKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+function useDoctors() {
+  const getNearbyDoctors = (userLat, userLon, topN = 5) => {
+    if (userLat === void 0 || userLon === void 0) {
+      return MOCK_DOCTORS.slice(0, topN).map((d) => ({
+        ...d,
+        distanceKm: void 0
+      }));
+    }
+    const withDistance = MOCK_DOCTORS.map((d) => ({
+      ...d,
+      distanceKm: Number.parseFloat(
+        haversineDistanceKm(userLat, userLon, d.lat, d.lon).toFixed(1)
+      )
+    }));
+    return withDistance.sort((a, b) => (a.distanceKm ?? 0) - (b.distanceKm ?? 0)).slice(0, topN);
+  };
+  return { getNearbyDoctors, allDoctors: MOCK_DOCTORS };
+}
+export {
+  Clock as C,
+  ExternalLink as E,
+  Navigation as N,
+  Phone as P,
+  Skeleton as S,
+  Star as a,
+  useDoctors as u
+};

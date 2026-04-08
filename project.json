@@ -1,0 +1,26 @@
+{
+  "overview": "DermaAI is an AI-powered skin disease detection assistant that helps users identify possible skin conditions through image capture and symptom analysis, then provides care recommendations and nearby dermatologist suggestions.",
+  "features": [
+    "Internet Identity authentication with protected routes",
+    "Permission consent flow for camera, location, and data usage",
+    "Camera capture and image upload via platform extensions",
+    "Symptom input form with checkboxes, duration, and age group",
+    "AI skin disease prediction with confidence scores (Acne, Eczema, Psoriasis, Fungal, Allergy)",
+    "Treatment and care recommendations per predicted disease",
+    "Nearby dermatologist suggestions using browser geolocation",
+    "Printable/shareable health report",
+    "Personalized dashboard with last 20 analysis history",
+    "Medical-themed UI with white, light blue, soft green palette"
+  ],
+  "category": "healthcare",
+  "tags": [
+    "healthcare",
+    "ai",
+    "skin-disease",
+    "dermatology",
+    "image-analysis",
+    "medical",
+    "geolocation"
+  ],
+  "last_updated": "2026-04-08T13:41:49.209Z"
+}
